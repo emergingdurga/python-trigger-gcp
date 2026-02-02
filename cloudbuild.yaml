@@ -1,0 +1,7 @@
+steps:
+  - name: python:3.11-slim
+    entrypoint: python
+    args: ["hello.py"]
+# options:
+#   logging: CLOUD_LOGGING_ONLY
+logsBucket: gs://cloudbuild-logs-emergingdurga
